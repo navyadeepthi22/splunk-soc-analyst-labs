@@ -24,6 +24,9 @@ index=*
 * Event type: SSH_AUTH_FAIL
 * Severity: Medium
 * Matching event count: 20
+* First observed event: October 19, 2026, at 13:45:00.
+* Last observed event: October 19, 2026, at 13:46:12.
+* Observed time span: 72 seconds.
 
 ## Analysis
 
@@ -43,6 +46,12 @@ Repeated failed authentication can indicate password guessing or another authent
 ![Failed SSH Login Analysis](../screenshots/splunk1.3.png)
 
 *Splunk results showing failed SSH authentication events grouped by source IP, username, event type, and severity.*
+
+### Event Timeline Analysis
+
+![SSH Event Timeline](../screenshots/splunk1.4.png)
+
+*Splunk results showing the first and last observed events and the total matching event count.*
 
 ## Conclusion
 
