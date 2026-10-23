@@ -35,13 +35,13 @@ This repository documents my hands-on learning journey with Splunk, focusing on 
 
 Executed a search in Splunk to retrieve events and display selected fields, including usernames, source IPs, destination IPs, event IDs, and severity.
 
-![Splunk Basic Search](screenshots/splunk1.1.png)
+![Splunk Basic Search](screenshots/splunk1.2.png)
 
 ### 2. Search Results
 
 Reviewed the returned events to verify that the selected fields were displayed correctly.
 
-![Splunk Search Results](screenshots/splunk1.2.png)
+![Splunk Search Results](screenshots/splunk1.1.png)
 
 
 ## Disclaimer
