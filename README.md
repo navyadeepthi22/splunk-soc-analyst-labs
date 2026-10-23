@@ -25,8 +25,8 @@ This repository documents my hands-on learning journey with Splunk, focusing on 
 | --- | ---------------------- | ----------- |
 | 01  | Splunk Fundamentals    | In Progress |
 | 02  | Log Ingestion          | Completed   |
-| 03  | SPL Basics             | Planned     |
-| 04  | Failed Login Analysis  | Planned     |
+| 03  | SPL Basics             | In Progress |
+| 04  | Failed Login Analysis  |Completed    |
 | 05  | Security Investigation | Planned     |
 
 ## Practical Evidence
