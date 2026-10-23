@@ -37,7 +37,7 @@ Repeated failed authentication can indicate password guessing or another authent
 2. Verify whether successful logins followed the failures.
 3. Review related authentication logs and source IP context.
 4. Check for duplicate events caused by repeated data ingestion.
-
+   
 ## Evidence
 
 ![Failed SSH Login Analysis](../screenshots/splunk1.3.png)
