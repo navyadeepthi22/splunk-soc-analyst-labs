@@ -27,6 +27,11 @@ index=*
 * First observed event: October 19, 2026, at 13:45:00.
 * Last observed event: October 19, 2026, at 13:46:12.
 * Observed time span: 72 seconds.
+* Event types observed for source IP `192.0.2.44`: `SSH_AUTH_FAIL` only.
+* No successful login event was found in the current search results.
+* The 20 matching events occurred over 72 seconds.
+* Since the dataset may contain duplicate ingestions, the 20 events cannot automatically be treated as 20 unique login attempts.
+
 
 ## Analysis
 
@@ -52,6 +57,10 @@ Repeated failed authentication can indicate password guessing or another authent
 ![SSH Event Timeline](../screenshots/splunk1.4.png)
 
 *Splunk results showing the first and last observed events and the total matching event count.*
+
+![Related Events Analysis](../screenshots/splunk1.5.png)
+
+*Statistics showing 20 SSH authentication failure events for the root account.*
 
 ## Conclusion
 
